@@ -1,0 +1,76 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #274156;
+    color: #FBFCFF;
+    text-align: center;
+    margin: 0;
+    margin-top: 130;
+  }
+  
+  
+  #upload-form {
+    margin-top: 40px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #a4a7de;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  #file-input {
+    display: none;
+  }
+  
+  .upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .upload-btn-wrapper input[type="file"] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    top: 0;
+  }
+  
+  .upload-btn-wrapper label {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 16px;
+    background-color: #1C6E8C;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upload-btn-wrapper label:hover {
+    background-color: #0b2332;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color:#3F6A8D;
+    color: #fff;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #132867;
+  }
+  
+  #result-container {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  
